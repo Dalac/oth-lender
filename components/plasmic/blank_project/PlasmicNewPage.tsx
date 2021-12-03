@@ -33,11 +33,37 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import NavButon from "../../NavButon"; // plasmic-import: SdkReR4VXx/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 import * as defaultcss from "../plasmic__default_style.module.css"; // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: b2N1SxytDee9rZxNaRXhrA/projectcss
 import * as sty from "./PlasmicNewPage.module.css"; // plasmic-import: tmh_LpOVi7/css
+
+import Layer2Icon from "./icons/PlasmicIcon__Layer2"; // plasmic-import: sulFYVmhND/icon
+import Rectangle11Icon from "./icons/PlasmicIcon__Rectangle11"; // plasmic-import: EXGyL4hUSP-/icon
+import BorderIcon from "./icons/PlasmicIcon__Border"; // plasmic-import: qvwCQCYGt6O/icon
+import Path3Icon from "./icons/PlasmicIcon__Path3"; // plasmic-import: 3iubnGhuWdd/icon
+import MaskIcon from "./icons/PlasmicIcon__Mask"; // plasmic-import: GPF_5qGY95L/icon
+import Line5Icon from "./icons/PlasmicIcon__Line5"; // plasmic-import: oo2jrc67Ay9/icon
+import VectorIcon from "./icons/PlasmicIcon__Vector"; // plasmic-import: v628lQtltdE/icon
+import Vector2Icon from "./icons/PlasmicIcon__Vector2"; // plasmic-import: RP7Uw6dsaBm/icon
+import Vector3Icon from "./icons/PlasmicIcon__Vector3"; // plasmic-import: aDEPzLw92u-/icon
+import Vector4Icon from "./icons/PlasmicIcon__Vector4"; // plasmic-import: neC6Tls1_in/icon
+import Vector5Icon from "./icons/PlasmicIcon__Vector5"; // plasmic-import: 5ZVmA4Fqsny/icon
+import Vector6Icon from "./icons/PlasmicIcon__Vector6"; // plasmic-import: IFQA6r2zxOA/icon
+import Vector7Icon from "./icons/PlasmicIcon__Vector7"; // plasmic-import: vRwWs7zRRkJ/icon
+import Vector8Icon from "./icons/PlasmicIcon__Vector8"; // plasmic-import: hr3xExKMLW2/icon
+import Vector9Icon from "./icons/PlasmicIcon__Vector9"; // plasmic-import: YeeCS-WaFGL/icon
+import Vector10Icon from "./icons/PlasmicIcon__Vector10"; // plasmic-import: JyHlNmbP0Oj/icon
+import Vector11Icon from "./icons/PlasmicIcon__Vector11"; // plasmic-import: RkqceEPUEOD/icon
+import Vector12Icon from "./icons/PlasmicIcon__Vector12"; // plasmic-import: UcjCV_6-1rA/icon
+import Vector13Icon from "./icons/PlasmicIcon__Vector13"; // plasmic-import: 8LOdf4iVu6L/icon
+import Vector14Icon from "./icons/PlasmicIcon__Vector14"; // plasmic-import: miRG5ExZtR3/icon
+import Vector15Icon from "./icons/PlasmicIcon__Vector15"; // plasmic-import: 1NsaFHxmpvd/icon
+import Vector16Icon from "./icons/PlasmicIcon__Vector16"; // plasmic-import: CZAVJWqfrDy/icon
+import GroupIcon from "./icons/PlasmicIcon__Group"; // plasmic-import: iR9PTxThwpt/icon
+import Border2Icon from "./icons/PlasmicIcon__Border2"; // plasmic-import: 93GedajKrdR/icon
 
 export type PlasmicNewPage__VariantMembers = {};
 
@@ -51,6 +77,161 @@ export const PlasmicNewPage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicNewPage__OverridesType = {
   root?: p.Flex<"div">;
+  homepageV1Desktop?: p.Flex<"div">;
+  rectangle326?: p.Flex<"div">;
+  rectangle6?: p.Flex<"div">;
+  asset101?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2?: p.Flex<"div">;
+  nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5?: p.Flex<"div">;
+  crossLines?: p.Flex<"div">;
+  crossLines2?: p.Flex<"div">;
+  crossLines3?: p.Flex<"div">;
+  moleculesMediaVideo1?: p.Flex<"div">;
+  background?: p.Flex<"div">;
+  crossLines4?: p.Flex<"div">;
+  playButton?: p.Flex<"div">;
+  atomsColorsAccent?: p.Flex<"div">;
+  rectangle5?: p.Flex<"div">;
+  moleculesMediaVideo12?: p.Flex<"div">;
+  background2?: p.Flex<"div">;
+  playButton2?: p.Flex<"div">;
+  atomsColorsAccent2?: p.Flex<"div">;
+  rectangle7?: p.Flex<"div">;
+  text2?: p.Flex<"div">;
+  text3?: p.Flex<"div">;
+  buttonsButtons?: p.Flex<"div">;
+  text4?: p.Flex<"div">;
+  text5?: p.Flex<"div">;
+  buttonsButtons2?: p.Flex<"div">;
+  text6?: p.Flex<"div">;
+  text7?: p.Flex<"div">;
+  component2?: p.Flex<"div">;
+  rectangle54?: p.Flex<"div">;
+  maskGroup?: p.Flex<"div">;
+  santorini2?: p.Flex<"div">;
+  santorini3?: p.Flex<"div">;
+  jcPenneyBuildingPlanoTx?: p.Flex<"div">;
+  _439000000?: p.Flex<"div">;
+  acquisitionFinancing?: p.Flex<"div">;
+  office?: p.Flex<"div">;
+  component3?: p.Flex<"div">;
+  rectangle55?: p.Flex<"div">;
+  maskGroup2?: p.Flex<"div">;
+  santorini4?: p.Flex<"div">;
+  santorini5?: p.Flex<"div">;
+  jcPenneyBuildingPlanoTx2?: p.Flex<"div">;
+  _4390000002?: p.Flex<"div">;
+  acquisitionFinancing2?: p.Flex<"div">;
+  office2?: p.Flex<"div">;
+  cardDeals?: p.Flex<"div">;
+  rectangle56?: p.Flex<"div">;
+  maskGroup3?: p.Flex<"div">;
+  santorini6?: p.Flex<"div">;
+  santorini7?: p.Flex<"div">;
+  _4390000003?: p.Flex<"div">;
+  office3?: p.Flex<"div">;
+  component4?: p.Flex<"div">;
+  rectangle57?: p.Flex<"div">;
+  maskGroup4?: p.Flex<"div">;
+  santorini8?: p.Flex<"div">;
+  santorini9?: p.Flex<"div">;
+  jcPenneyBuildingPlanoTx3?: p.Flex<"div">;
+  _4390000004?: p.Flex<"div">;
+  acquisitionFinancing3?: p.Flex<"div">;
+  office4?: p.Flex<"div">;
+  component8?: p.Flex<"div">;
+  rectangle58?: p.Flex<"div">;
+  maskGroup5?: p.Flex<"div">;
+  santorini10?: p.Flex<"div">;
+  santorini11?: p.Flex<"div">;
+  jcPenneyBuildingPlanoTx4?: p.Flex<"div">;
+  _4390000005?: p.Flex<"div">;
+  acquisitionFinancing4?: p.Flex<"div">;
+  office5?: p.Flex<"div">;
+  streamlineSvg?: p.Flex<"div">;
+  component6?: p.Flex<"div">;
+  rectangle59?: p.Flex<"div">;
+  maskGroup6?: p.Flex<"div">;
+  santorini12?: p.Flex<"div">;
+  santorini13?: p.Flex<"div">;
+  jcPenneyBuildingPlanoTx5?: p.Flex<"div">;
+  _4390000006?: p.Flex<"div">;
+  acquisitionFinancing5?: p.Flex<"div">;
+  office6?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7?: p.Flex<"div">;
+  footer?: p.Flex<"div">;
+  text8?: p.Flex<"div">;
+  inputText?: p.Flex<"div">;
+  buttons?: p.Flex<"div">;
+  suscribe?: p.Flex<"div">;
+  text9?: p.Flex<"div">;
+  text10?: p.Flex<"div">;
+  text11?: p.Flex<"div">;
+  text12?: p.Flex<"div">;
+  text13?: p.Flex<"div">;
+  text14?: p.Flex<"div">;
+  text15?: p.Flex<"div">;
+  text16?: p.Flex<"div">;
+  text17?: p.Flex<"div">;
+  text18?: p.Flex<"div">;
+  text19?: p.Flex<"div">;
+  text20?: p.Flex<"div">;
+  text21?: p.Flex<"div">;
+  text22?: p.Flex<"div">;
+  text23?: p.Flex<"div">;
+  text24?: p.Flex<"div">;
+  text25?: p.Flex<"div">;
+  text26?: p.Flex<"div">;
+  text27?: p.Flex<"div">;
+  text28?: p.Flex<"div">;
+  text29?: p.Flex<"div">;
+  text30?: p.Flex<"div">;
+  text31?: p.Flex<"div">;
+  text32?: p.Flex<"div">;
+  text33?: p.Flex<"div">;
+  text34?: p.Flex<"div">;
+  text35?: p.Flex<"div">;
+  text36?: p.Flex<"div">;
+  text37?: p.Flex<"div">;
+  text38?: p.Flex<"div">;
+  text39?: p.Flex<"div">;
+  text40?: p.Flex<"div">;
+  asset102?: p.Flex<"div">;
+  home2?: p.Flex<"div">;
+  navButon?: p.Flex<typeof NavButon>;
+  text42?: p.Flex<"div">;
+  text43?: p.Flex<"div">;
+  text44?: p.Flex<"div">;
+  text45?: p.Flex<"div">;
+  rectangle339?: p.Flex<"div">;
+  rectangle336?: p.Flex<"div">;
+  text46?: p.Flex<"div">;
+  text47?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum?: p.Flex<"div">;
+  buttons2?: p.Flex<"div">;
+  secondary?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2?: p.Flex<"div">;
+  buttons3?: p.Flex<"div">;
+  secondary2?: p.Flex<"div">;
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3?: p.Flex<"div">;
+  buttons4?: p.Flex<"div">;
+  secondary3?: p.Flex<"div">;
+  text48?: p.Flex<"div">;
+  text49?: p.Flex<"div">;
+  financialRequestListingBroker?: p.Flex<"div">;
+  quotes?: p.Flex<"div">;
+  documents?: p.Flex<"div">;
+  buttonsButtons3?: p.Flex<"div">;
+  text50?: p.Flex<"div">;
+  text51?: p.Flex<"div">;
+  inputText2?: p.Flex<"div">;
+  inputText3?: p.Flex<"div">;
+  inputText4?: p.Flex<"div">;
 };
 
 export interface DefaultNewPageProps {
@@ -90,20 +271,3472 @@ function PlasmicNewPage__RenderFunc(props: {
             projectcss.root_reset,
             sty.root
           )}
-        />
+        >
+          <div
+            data-plasmic-name={"homepageV1Desktop"}
+            data-plasmic-override={overrides.homepageV1Desktop}
+            className={classNames(
+              defaultcss.all,
+              projectcss.all,
+              sty.homepageV1Desktop
+            )}
+          >
+            <div
+              data-plasmic-name={"rectangle326"}
+              data-plasmic-override={overrides.rectangle326}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.rectangle326
+              )}
+            />
+
+            <div
+              data-plasmic-name={"rectangle6"}
+              data-plasmic-override={overrides.rectangle6}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.rectangle6
+              )}
+            />
+
+            <div
+              data-plasmic-name={"asset101"}
+              data-plasmic-override={overrides.asset101}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.asset101
+              )}
+            >
+              <Layer2Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__oaVhx
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text___6Aqh
+              )}
+            >
+              {
+                "Close more deals with TrueRate. Spend your time lending and let TrueRate source and guide your next deal to you."
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__uUbv5
+              )}
+            >
+              {"CRE TRANSACTIONS REIMAGINED"}
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={
+                "nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+              }
+              data-plasmic-override={
+                overrides.nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum
+              )}
+            >
+              {
+                "Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__yjRxw
+              )}
+            >
+              {"The right deals for you"}
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__rlnRr
+              )}
+            >
+              {"The most secure layer to keep your info protected"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__vOuxE
+              )}
+            >
+              {"Security Layer"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__jqKs
+              )}
+            >
+              {"STREAMLINE YOUR REVIEW"}
+            </div>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__xgdmb)}
+              displayHeight={"273px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"310px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: "/plasmic/blank_project/images/undrawSecureFilesRe6Vdh1.svg",
+                fullWidth: 310,
+                fullHeight: 273,
+                aspectRatio: 1.135531
+              }}
+            />
+
+            <Rectangle11Icon
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.svg__u9Hzj
+              )}
+              role={"img"}
+            />
+
+            <div
+              data-plasmic-name={"crossLines"}
+              data-plasmic-override={overrides.crossLines}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.crossLines
+              )}
+            />
+
+            <div
+              data-plasmic-name={"crossLines2"}
+              data-plasmic-override={overrides.crossLines2}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.crossLines2
+              )}
+            />
+
+            <div
+              data-plasmic-name={"crossLines3"}
+              data-plasmic-override={overrides.crossLines3}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.crossLines3
+              )}
+            />
+
+            <div
+              data-plasmic-name={"moleculesMediaVideo1"}
+              data-plasmic-override={overrides.moleculesMediaVideo1}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.moleculesMediaVideo1
+              )}
+            >
+              <div
+                data-plasmic-name={"background"}
+                data-plasmic-override={overrides.background}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.background
+                )}
+              />
+
+              {false ? (
+                <BorderIcon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__zEj10
+                  )}
+                  role={"img"}
+                />
+              ) : null}
+              {false ? (
+                <div
+                  data-plasmic-name={"crossLines4"}
+                  data-plasmic-override={overrides.crossLines4}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.crossLines4
+                  )}
+                >
+                  {false ? (
+                    <Path3Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__hoicS
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+                  {false ? (
+                    <Path3Icon
+                      className={classNames(
+                        defaultcss.all,
+                        projectcss.all,
+                        sty.svg__m7EfD
+                      )}
+                      role={"img"}
+                    />
+                  ) : null}
+                </div>
+              ) : null}
+
+              <div
+                data-plasmic-name={"playButton"}
+                data-plasmic-override={overrides.playButton}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.playButton
+                )}
+              >
+                <MaskIcon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__mz275
+                  )}
+                  role={"img"}
+                />
+
+                <div
+                  data-plasmic-name={"atomsColorsAccent"}
+                  data-plasmic-override={overrides.atomsColorsAccent}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.atomsColorsAccent
+                  )}
+                >
+                  <div
+                    data-plasmic-name={"rectangle5"}
+                    data-plasmic-override={overrides.rectangle5}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.rectangle5
+                    )}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"moleculesMediaVideo12"}
+              data-plasmic-override={overrides.moleculesMediaVideo12}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.moleculesMediaVideo12
+              )}
+            >
+              <div
+                data-plasmic-name={"background2"}
+                data-plasmic-override={overrides.background2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.background2
+                )}
+              />
+
+              {false ? (
+                <BorderIcon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__oLpds
+                  )}
+                  role={"img"}
+                />
+              ) : null}
+              {false ? (
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__brCvq)}
+                  displayHeight={"387px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"616px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/blank_project/images/crossLines3.svg",
+                    fullWidth: 616,
+                    fullHeight: 387,
+                    aspectRatio: 1.591731
+                  }}
+                />
+              ) : null}
+
+              <div
+                data-plasmic-name={"playButton2"}
+                data-plasmic-override={overrides.playButton2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.playButton2
+                )}
+              >
+                <MaskIcon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__hCFeW
+                  )}
+                  role={"img"}
+                />
+
+                <div
+                  data-plasmic-name={"atomsColorsAccent2"}
+                  data-plasmic-override={overrides.atomsColorsAccent2}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.atomsColorsAccent2
+                  )}
+                >
+                  <div
+                    data-plasmic-name={"rectangle7"}
+                    data-plasmic-override={overrides.rectangle7}
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      sty.rectangle7
+                    )}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__unrxM
+              )}
+            >
+              {
+                "See how our advisory services and products are\rREIMAGINING CRE TRANSACTIONS"
+              }
+            </div>
+
+            <div
+              data-plasmic-name={"text2"}
+              data-plasmic-override={overrides.text2}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text2
+              )}
+            >
+              {"Reimagining CRE Transactions"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__n4Bu7
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. Quisque mattis dolor et leo consequat rutrum. Donec rutrum sem in ante venenatis blandit."
+              }
+            </div>
+
+            <div
+              data-plasmic-name={"text3"}
+              data-plasmic-override={overrides.text3}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text3
+              )}
+            >
+              {"Speed Of Transactions"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__fXdZp
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. Quisque mattis dolor et leo consequat rutrum. Donec rutrum sem in ante venenatis blandit."
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__sh3BB
+              )}
+            >
+              {"SPEED OF TRANSACTION"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__dF3Qg
+              )}
+            >
+              {"Become a lender partner with us and  get more matched deals!"}
+            </div>
+
+            <div
+              data-plasmic-name={"buttonsButtons"}
+              data-plasmic-override={overrides.buttonsButtons}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttonsButtons
+              )}
+            >
+              <div
+                data-plasmic-name={"text4"}
+                data-plasmic-override={overrides.text4}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.text4
+                )}
+              >
+                <div
+                  data-plasmic-name={"text5"}
+                  data-plasmic-override={overrides.text5}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    defaultcss.__wab_text,
+                    sty.text5
+                  )}
+                >
+                  {"Become a Lender"}
+                </div>
+              </div>
+            </div>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__hJc9G)}
+              displayHeight={"242px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"191px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: "/plasmic/blank_project/images/undrawDocumentsReIsxv.svg",
+                fullWidth: 191,
+                fullHeight: 242,
+                aspectRatio: 0.789256
+              }}
+            />
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__c7Hmk
+              )}
+            >
+              {"human expertise support by data-driven intelligence"}
+            </div>
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img___7Ejfm)}
+              displayHeight={"239px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"419px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: "/plasmic/blank_project/images/undrawCustomerSurveyReV9Cj1.svg",
+                fullWidth: 419,
+                fullHeight: 239,
+                aspectRatio: 1.753138
+              }}
+            />
+
+            <p.PlasmicImg
+              alt={""}
+              className={classNames(sty.img__aYiDt)}
+              displayHeight={"285px" as const}
+              displayMaxHeight={"none" as const}
+              displayMaxWidth={"100%" as const}
+              displayMinHeight={"0" as const}
+              displayMinWidth={"0" as const}
+              displayWidth={"399px" as const}
+              loading={"lazy" as const}
+              src={{
+                src: "/plasmic/blank_project/images/undrawDataProcessingYrrv.svg",
+                fullWidth: 399,
+                fullHeight: 285,
+                aspectRatio: 1.4
+              }}
+            />
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__f2R8K
+              )}
+            >
+              {"Start a loan and  get more matched deals!"}
+            </div>
+
+            <div
+              data-plasmic-name={"buttonsButtons2"}
+              data-plasmic-override={overrides.buttonsButtons2}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttonsButtons2
+              )}
+            >
+              <div
+                data-plasmic-name={"text6"}
+                data-plasmic-override={overrides.text6}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.text6
+                )}
+              >
+                <div
+                  data-plasmic-name={"text7"}
+                  data-plasmic-override={overrides.text7}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    defaultcss.__wab_text,
+                    sty.text7
+                  )}
+                >
+                  {"START A NEW TRANSACTION"}
+                </div>
+              </div>
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__d4GoY
+              )}
+            >
+              {"CLOSED"}
+            </div>
+
+            <div
+              data-plasmic-name={"component2"}
+              data-plasmic-override={overrides.component2}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.component2
+              )}
+            >
+              <div
+                data-plasmic-name={"rectangle54"}
+                data-plasmic-override={overrides.rectangle54}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.rectangle54
+                )}
+              />
+
+              <div
+                data-plasmic-name={"maskGroup"}
+                data-plasmic-override={overrides.maskGroup}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.maskGroup
+                )}
+              >
+                <div
+                  data-plasmic-name={"santorini2"}
+                  data-plasmic-override={overrides.santorini2}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.santorini2
+                  )}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"santorini3"}
+                data-plasmic-override={overrides.santorini3}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.santorini3
+                )}
+              />
+
+              <div
+                data-plasmic-name={"jcPenneyBuildingPlanoTx"}
+                data-plasmic-override={overrides.jcPenneyBuildingPlanoTx}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.jcPenneyBuildingPlanoTx
+                )}
+              >
+                {"18 Park\nJersey City, NJ"}
+              </div>
+
+              <div
+                data-plasmic-name={"_439000000"}
+                data-plasmic-override={overrides._439000000}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty._439000000
+                )}
+              >
+                {"$75,000,000"}
+              </div>
+
+              <div
+                data-plasmic-name={"acquisitionFinancing"}
+                data-plasmic-override={overrides.acquisitionFinancing}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.acquisitionFinancing
+                )}
+              >
+                {"Refinancing"}
+              </div>
+
+              <div
+                data-plasmic-name={"office"}
+                data-plasmic-override={overrides.office}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.office
+                )}
+              >
+                {"Multifamily "}
+              </div>
+
+              <Line5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__wzPdz
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={"component3"}
+              data-plasmic-override={overrides.component3}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.component3
+              )}
+            >
+              <div
+                data-plasmic-name={"rectangle55"}
+                data-plasmic-override={overrides.rectangle55}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.rectangle55
+                )}
+              />
+
+              <div
+                data-plasmic-name={"maskGroup2"}
+                data-plasmic-override={overrides.maskGroup2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.maskGroup2
+                )}
+              >
+                <div
+                  data-plasmic-name={"santorini4"}
+                  data-plasmic-override={overrides.santorini4}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.santorini4
+                  )}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"santorini5"}
+                data-plasmic-override={overrides.santorini5}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.santorini5
+                )}
+              />
+
+              <div
+                data-plasmic-name={"jcPenneyBuildingPlanoTx2"}
+                data-plasmic-override={overrides.jcPenneyBuildingPlanoTx2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.jcPenneyBuildingPlanoTx2
+                )}
+              >
+                {"Isle de Sol/Simpson Bay\nSt. Maarten"}
+              </div>
+
+              <div
+                data-plasmic-name={"_4390000002"}
+                data-plasmic-override={overrides._4390000002}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty._4390000002
+                )}
+              >
+                {"$18,484,000 "}
+              </div>
+
+              <div
+                data-plasmic-name={"acquisitionFinancing2"}
+                data-plasmic-override={overrides.acquisitionFinancing2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.acquisitionFinancing2
+                )}
+              >
+                {"Refinancing"}
+              </div>
+
+              <div
+                data-plasmic-name={"office2"}
+                data-plasmic-override={overrides.office2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.office2
+                )}
+              >
+                {"Marinas "}
+              </div>
+
+              <Line5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__waExx
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={"cardDeals"}
+              data-plasmic-override={overrides.cardDeals}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.cardDeals
+              )}
+            >
+              <div
+                data-plasmic-name={"rectangle56"}
+                data-plasmic-override={overrides.rectangle56}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.rectangle56
+                )}
+              />
+
+              <div
+                data-plasmic-name={"maskGroup3"}
+                data-plasmic-override={overrides.maskGroup3}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.maskGroup3
+                )}
+              >
+                <div
+                  data-plasmic-name={"santorini6"}
+                  data-plasmic-override={overrides.santorini6}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.santorini6
+                  )}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"santorini7"}
+                data-plasmic-override={overrides.santorini7}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.santorini7
+                )}
+              />
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__y7BL
+                )}
+              >
+                {"JC Penney Building\nPlano, TX"}
+              </div>
+
+              <div
+                data-plasmic-name={"_4390000003"}
+                data-plasmic-override={overrides._4390000003}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty._4390000003
+                )}
+              >
+                {"$439,000,000 "}
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__eXtIi
+                )}
+              >
+                {"Acquisition Financing"}
+              </div>
+
+              <div
+                data-plasmic-name={"office3"}
+                data-plasmic-override={overrides.office3}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.office3
+                )}
+              >
+                {"Office "}
+              </div>
+
+              <Line5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__myxNb
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={"component4"}
+              data-plasmic-override={overrides.component4}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.component4
+              )}
+            >
+              <div
+                data-plasmic-name={"rectangle57"}
+                data-plasmic-override={overrides.rectangle57}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.rectangle57
+                )}
+              />
+
+              <div
+                data-plasmic-name={"maskGroup4"}
+                data-plasmic-override={overrides.maskGroup4}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.maskGroup4
+                )}
+              >
+                <div
+                  data-plasmic-name={"santorini8"}
+                  data-plasmic-override={overrides.santorini8}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.santorini8
+                  )}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"santorini9"}
+                data-plasmic-override={overrides.santorini9}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.santorini9
+                )}
+              />
+
+              <div
+                data-plasmic-name={"jcPenneyBuildingPlanoTx3"}
+                data-plasmic-override={overrides.jcPenneyBuildingPlanoTx3}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.jcPenneyBuildingPlanoTx3
+                )}
+              >
+                {"Bardmoor Palms\nLargo, FL"}
+              </div>
+
+              <div
+                data-plasmic-name={"_4390000004"}
+                data-plasmic-override={overrides._4390000004}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty._4390000004
+                )}
+              >
+                {"$55,500,000 "}
+              </div>
+
+              <div
+                data-plasmic-name={"acquisitionFinancing3"}
+                data-plasmic-override={overrides.acquisitionFinancing3}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.acquisitionFinancing3
+                )}
+              >
+                {"Refinancing"}
+              </div>
+
+              <div
+                data-plasmic-name={"office4"}
+                data-plasmic-override={overrides.office4}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.office4
+                )}
+              >
+                {"Office / Industrial"}
+              </div>
+
+              <Line5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__tnZwE
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={"component8"}
+              data-plasmic-override={overrides.component8}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.component8
+              )}
+            >
+              <div
+                data-plasmic-name={"rectangle58"}
+                data-plasmic-override={overrides.rectangle58}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.rectangle58
+                )}
+              />
+
+              <div
+                data-plasmic-name={"maskGroup5"}
+                data-plasmic-override={overrides.maskGroup5}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.maskGroup5
+                )}
+              >
+                <div
+                  data-plasmic-name={"santorini10"}
+                  data-plasmic-override={overrides.santorini10}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.santorini10
+                  )}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"santorini11"}
+                data-plasmic-override={overrides.santorini11}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.santorini11
+                )}
+              />
+
+              <div
+                data-plasmic-name={"jcPenneyBuildingPlanoTx4"}
+                data-plasmic-override={overrides.jcPenneyBuildingPlanoTx4}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.jcPenneyBuildingPlanoTx4
+                )}
+              >
+                {"560 Ninth Street\nNaples, FL"}
+              </div>
+
+              <div
+                data-plasmic-name={"_4390000005"}
+                data-plasmic-override={overrides._4390000005}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty._4390000005
+                )}
+              >
+                {"$11,500,000 "}
+              </div>
+
+              <div
+                data-plasmic-name={"acquisitionFinancing4"}
+                data-plasmic-override={overrides.acquisitionFinancing4}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.acquisitionFinancing4
+                )}
+              >
+                {"Construction Financing"}
+              </div>
+
+              <div
+                data-plasmic-name={"office5"}
+                data-plasmic-override={overrides.office5}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.office5
+                )}
+              >
+                {"Condo / Retail "}
+              </div>
+
+              <Line5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__je2Hr
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={"streamlineSvg"}
+              data-plasmic-override={overrides.streamlineSvg}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.streamlineSvg
+              )}
+            >
+              <VectorIcon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___76AmZ
+                )}
+                role={"img"}
+              />
+
+              <Vector2Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__zumSu
+                )}
+                role={"img"}
+              />
+
+              <Vector3Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__jQ8Bt
+                )}
+                role={"img"}
+              />
+
+              <Vector4Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___1Yctt
+                )}
+                role={"img"}
+              />
+
+              <Vector5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___48MbT
+                )}
+                role={"img"}
+              />
+
+              <Vector6Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___3Irve
+                )}
+                role={"img"}
+              />
+
+              <Vector7Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___4Fbje
+                )}
+                role={"img"}
+              />
+
+              <Vector8Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__a6TUq
+                )}
+                role={"img"}
+              />
+
+              <Vector9Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___3CBr
+                )}
+                role={"img"}
+              />
+
+              <Vector10Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__ykVs
+                )}
+                role={"img"}
+              />
+
+              <Vector11Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__nMPs
+                )}
+                role={"img"}
+              />
+
+              <Vector2Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__m7ZvO
+                )}
+                role={"img"}
+              />
+
+              <Vector12Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__uRCfA
+                )}
+                role={"img"}
+              />
+
+              <Vector13Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__iahBn
+                )}
+                role={"img"}
+              />
+
+              <Vector4Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__pqC0G
+                )}
+                role={"img"}
+              />
+
+              <Vector5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__mZXta
+                )}
+                role={"img"}
+              />
+
+              <Vector14Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__niPsa
+                )}
+                role={"img"}
+              />
+
+              <Vector10Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__tcoew
+                )}
+                role={"img"}
+              />
+
+              <Vector10Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__t8Wwl
+                )}
+                role={"img"}
+              />
+
+              <Vector15Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___4YjPt
+                )}
+                role={"img"}
+              />
+
+              <Vector15Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__gMfcC
+                )}
+                role={"img"}
+              />
+
+              <Vector15Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__dkeTy
+                )}
+                role={"img"}
+              />
+
+              <Vector10Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__mihT
+                )}
+                role={"img"}
+              />
+
+              <Vector15Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__fOos
+                )}
+                role={"img"}
+              />
+
+              <Vector9Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___7A0Z3
+                )}
+                role={"img"}
+              />
+
+              <Vector16Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__x6G4P
+                )}
+                role={"img"}
+              />
+
+              <Vector16Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___46M5E
+                )}
+                role={"img"}
+              />
+
+              <Vector16Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__am9Ql
+                )}
+                role={"img"}
+              />
+
+              <Vector16Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___2Mm45
+                )}
+                role={"img"}
+              />
+
+              <Vector16Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg___0UNs
+                )}
+                role={"img"}
+              />
+
+              <GroupIcon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__gdEc
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={"component6"}
+              data-plasmic-override={overrides.component6}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.component6
+              )}
+            >
+              <div
+                data-plasmic-name={"rectangle59"}
+                data-plasmic-override={overrides.rectangle59}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.rectangle59
+                )}
+              />
+
+              <div
+                data-plasmic-name={"maskGroup6"}
+                data-plasmic-override={overrides.maskGroup6}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.maskGroup6
+                )}
+              >
+                <div
+                  data-plasmic-name={"santorini12"}
+                  data-plasmic-override={overrides.santorini12}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.santorini12
+                  )}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"santorini13"}
+                data-plasmic-override={overrides.santorini13}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.santorini13
+                )}
+              />
+
+              <div
+                data-plasmic-name={"jcPenneyBuildingPlanoTx5"}
+                data-plasmic-override={overrides.jcPenneyBuildingPlanoTx5}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.jcPenneyBuildingPlanoTx5
+                )}
+              >
+                {"Crowne Plaza\nLake Buena Vista, FL"}
+              </div>
+
+              <div
+                data-plasmic-name={"_4390000006"}
+                data-plasmic-override={overrides._4390000006}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty._4390000006
+                )}
+              >
+                {"$21,540,000 "}
+              </div>
+
+              <div
+                data-plasmic-name={"acquisitionFinancing5"}
+                data-plasmic-override={overrides.acquisitionFinancing5}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.acquisitionFinancing5
+                )}
+              >
+                {"Refinancing"}
+              </div>
+
+              <div
+                data-plasmic-name={"office6"}
+                data-plasmic-override={overrides.office6}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.office6
+                )}
+              >
+                {"Hotel "}
+              </div>
+
+              <Line5Icon
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.svg__oRqZn
+                )}
+                role={"img"}
+              />
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__adje
+              )}
+            >
+              {"One request, more matched deals!"}
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text___7L4In
+              )}
+            >
+              {"advanceD documents management system"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__p2ndL
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem."
+              }
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__gbIwK
+              )}
+            >
+              {"GET MORE QUOTES, COMPARE AND GET THE BEST MATCH."}
+            </div>
+
+            <div
+              data-plasmic-name={"footer"}
+              data-plasmic-override={overrides.footer}
+              className={classNames(defaultcss.all, projectcss.all, sty.footer)}
+            >
+              <div
+                data-plasmic-name={"text8"}
+                data-plasmic-override={overrides.text8}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text8
+                )}
+              >
+                {"SUBSCRIBE TO OUR NEWSLETTER"}
+              </div>
+
+              <div
+                data-plasmic-name={"inputText"}
+                data-plasmic-override={overrides.inputText}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.inputText
+                )}
+              >
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    defaultcss.__wab_text,
+                    sty.text__hJPfY
+                  )}
+                >
+                  {"Placeholder"}
+                </div>
+
+                <Border2Icon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg__fvytd
+                  )}
+                  role={"img"}
+                />
+              </div>
+
+              <div
+                data-plasmic-name={"buttons"}
+                data-plasmic-override={overrides.buttons}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.buttons
+                )}
+              >
+                <div
+                  data-plasmic-name={"suscribe"}
+                  data-plasmic-override={overrides.suscribe}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.suscribe
+                  )}
+                >
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      projectcss.all,
+                      defaultcss.__wab_text,
+                      sty.text__jfwLr
+                    )}
+                  >
+                    {"Suscribe"}
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-plasmic-name={"text9"}
+                data-plasmic-override={overrides.text9}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text9
+                )}
+              >
+                {"Services"}
+              </div>
+
+              <div
+                data-plasmic-name={"text10"}
+                data-plasmic-override={overrides.text10}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text10
+                )}
+              >
+                {"Capital Markets Portal"}
+              </div>
+
+              <div
+                data-plasmic-name={"text11"}
+                data-plasmic-override={overrides.text11}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text11
+                )}
+              >
+                {"780 Third Avenue, Suite 4400 New York, NY 10017"}
+              </div>
+
+              <div
+                data-plasmic-name={"text12"}
+                data-plasmic-override={overrides.text12}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text12
+                )}
+              >
+                {"TERMS OF USE\nPRIVACY POLICY"}
+              </div>
+
+              <div
+                data-plasmic-name={"text13"}
+                data-plasmic-override={overrides.text13}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text13
+                )}
+              >
+                {"Direct: 914 359 4231"}
+              </div>
+
+              <div
+                data-plasmic-name={"text14"}
+                data-plasmic-override={overrides.text14}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text14
+                )}
+              >
+                {"questions@truerateservices.com"}
+              </div>
+
+              <div
+                data-plasmic-name={"text15"}
+                data-plasmic-override={overrides.text15}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text15
+                )}
+              >
+                {"About"}
+              </div>
+
+              <div
+                data-plasmic-name={"text16"}
+                data-plasmic-override={overrides.text16}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text16
+                )}
+              >
+                {"Partner with us"}
+              </div>
+
+              <div
+                data-plasmic-name={"text17"}
+                data-plasmic-override={overrides.text17}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text17
+                )}
+              >
+                {"Debt Financing"}
+              </div>
+
+              <div
+                data-plasmic-name={"text18"}
+                data-plasmic-override={overrides.text18}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text18
+                )}
+              >
+                {"Acquisition Financing"}
+              </div>
+
+              <div
+                data-plasmic-name={"text19"}
+                data-plasmic-override={overrides.text19}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text19
+                )}
+              >
+                {"Refinancing"}
+              </div>
+
+              <div
+                data-plasmic-name={"text20"}
+                data-plasmic-override={overrides.text20}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text20
+                )}
+              >
+                {"Mezzanine & Bridge Debt"}
+              </div>
+
+              <div
+                data-plasmic-name={"text21"}
+                data-plasmic-override={overrides.text21}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text21
+                )}
+              >
+                {"CMBS Loan"}
+              </div>
+
+              <div
+                data-plasmic-name={"text22"}
+                data-plasmic-override={overrides.text22}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text22
+                )}
+              >
+                {"Freddie and Fannie"}
+              </div>
+
+              <div
+                data-plasmic-name={"text23"}
+                data-plasmic-override={overrides.text23}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text23
+                )}
+              >
+                {"Equity Placement"}
+              </div>
+
+              <div
+                data-plasmic-name={"text24"}
+                data-plasmic-override={overrides.text24}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text24
+                )}
+              >
+                {"Preferred Equity"}
+              </div>
+
+              <div
+                data-plasmic-name={"text25"}
+                data-plasmic-override={overrides.text25}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text25
+                )}
+              >
+                {"JV Equity"}
+              </div>
+
+              <div
+                data-plasmic-name={"text26"}
+                data-plasmic-override={overrides.text26}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text26
+                )}
+              >
+                {"New Construction Financing"}
+              </div>
+
+              <div
+                data-plasmic-name={"text27"}
+                data-plasmic-override={overrides.text27}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text27
+                )}
+              >
+                {"Land"}
+              </div>
+
+              <div
+                data-plasmic-name={"text28"}
+                data-plasmic-override={overrides.text28}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text28
+                )}
+              >
+                {"FHA / Substantial Rehabilitation"}
+              </div>
+
+              <div
+                data-plasmic-name={"text29"}
+                data-plasmic-override={overrides.text29}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text29
+                )}
+              >
+                {"Insights & News"}
+              </div>
+
+              <div
+                data-plasmic-name={"text30"}
+                data-plasmic-override={overrides.text30}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text30
+                )}
+              >
+                {"Log in"}
+              </div>
+
+              <div
+                data-plasmic-name={"text31"}
+                data-plasmic-override={overrides.text31}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text31
+                )}
+              >
+                {"Multifamily Investment Sales"}
+              </div>
+
+              <div
+                data-plasmic-name={"text32"}
+                data-plasmic-override={overrides.text32}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text32
+                )}
+              >
+                {"Mission /Vision"}
+              </div>
+
+              <div
+                data-plasmic-name={"text33"}
+                data-plasmic-override={overrides.text33}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text33
+                )}
+              >
+                {"Origin Story"}
+              </div>
+
+              <div
+                data-plasmic-name={"text34"}
+                data-plasmic-override={overrides.text34}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text34
+                )}
+              >
+                {"Team"}
+              </div>
+
+              <div
+                data-plasmic-name={"text35"}
+                data-plasmic-override={overrides.text35}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text35
+                )}
+              >
+                {"Careers"}
+              </div>
+
+              <div
+                data-plasmic-name={"text36"}
+                data-plasmic-override={overrides.text36}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text36
+                )}
+              >
+                {"Lender"}
+              </div>
+
+              <div
+                data-plasmic-name={"text37"}
+                data-plasmic-override={overrides.text37}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text37
+                )}
+              >
+                {"Brokerages"}
+              </div>
+
+              <div
+                data-plasmic-name={"text38"}
+                data-plasmic-override={overrides.text38}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text38
+                )}
+              >
+                {"Blogs"}
+              </div>
+
+              <div
+                data-plasmic-name={"text39"}
+                data-plasmic-override={overrides.text39}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text39
+                )}
+              >
+                {"Press"}
+              </div>
+
+              <div
+                data-plasmic-name={"text40"}
+                data-plasmic-override={overrides.text40}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text40
+                )}
+              >
+                {"Closed Deals"}
+              </div>
+
+              <div
+                data-plasmic-name={"asset102"}
+                data-plasmic-override={overrides.asset102}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.asset102
+                )}
+              >
+                <Layer2Icon
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    sty.svg___42TgZ
+                  )}
+                  role={"img"}
+                />
+              </div>
+
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text___6Kns2
+                )}
+              >
+                {"Copyright 2021 True Rate Services LLC"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"home2"}
+              data-plasmic-override={overrides.home2}
+              className={classNames(defaultcss.all, projectcss.all, sty.home2)}
+            />
+
+            <NavButon
+              data-plasmic-name={"navButon"}
+              data-plasmic-override={overrides.navButon}
+              className={classNames("__wab_instance", sty.navButon)}
+            />
+
+            <div
+              data-plasmic-name={"text42"}
+              data-plasmic-override={overrides.text42}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text42
+              )}
+            >
+              {"Products"}
+            </div>
+
+            <div
+              data-plasmic-name={"text43"}
+              data-plasmic-override={overrides.text43}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text43
+              )}
+            >
+              {"About"}
+            </div>
+
+            <div
+              data-plasmic-name={"text44"}
+              data-plasmic-override={overrides.text44}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text44
+              )}
+            >
+              {"Partner with us"}
+            </div>
+
+            <div
+              data-plasmic-name={"text45"}
+              data-plasmic-override={overrides.text45}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text45
+              )}
+            >
+              {"Insights & News"}
+            </div>
+
+            <div
+              data-plasmic-name={"rectangle339"}
+              data-plasmic-override={overrides.rectangle339}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.rectangle339
+              )}
+            />
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__gQeXv
+              )}
+            >
+              {"log In"}
+            </div>
+
+            <div
+              data-plasmic-name={"rectangle336"}
+              data-plasmic-override={overrides.rectangle336}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.rectangle336
+              )}
+            />
+
+            <div
+              data-plasmic-name={"text46"}
+              data-plasmic-override={overrides.text46}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text46
+              )}
+            >
+              {"start a deal"}
+            </div>
+
+            <div
+              data-plasmic-name={"text47"}
+              data-plasmic-override={overrides.text47}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text47
+              )}
+            >
+              {"Learn About Acquisition"}
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={"buttons2"}
+              data-plasmic-override={overrides.buttons2}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttons2
+              )}
+            >
+              <div
+                data-plasmic-name={"secondary"}
+                data-plasmic-override={overrides.secondary}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.secondary
+                )}
+              >
+                {"Learn More"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={"buttons3"}
+              data-plasmic-override={overrides.buttons3}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttons3
+              )}
+            >
+              <div
+                data-plasmic-name={"secondary2"}
+                data-plasmic-override={overrides.secondary2}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.secondary2
+                )}
+              >
+                {"Learn More"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={
+                "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3"
+              }
+              data-plasmic-override={
+                overrides.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3
+              }
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3
+              )}
+            >
+              {
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a nunc in purus facilisis suscipit sed vel lorem. Nunc iaculis nisi ut nisi elementum, vel ultricies orci elementum. "
+              }
+            </div>
+
+            <div
+              data-plasmic-name={"buttons4"}
+              data-plasmic-override={overrides.buttons4}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttons4
+              )}
+            >
+              <div
+                data-plasmic-name={"secondary3"}
+                data-plasmic-override={overrides.secondary3}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.secondary3
+                )}
+              >
+                {"Learn More"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"text48"}
+              data-plasmic-override={overrides.text48}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text48
+              )}
+            >
+              {"Learn CRE"}
+            </div>
+
+            <div
+              data-plasmic-name={"text49"}
+              data-plasmic-override={overrides.text49}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text49
+              )}
+            >
+              {"CRE Highligths Research"}
+            </div>
+
+            <div
+              data-plasmic-name={"financialRequestListingBroker"}
+              data-plasmic-override={overrides.financialRequestListingBroker}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.financialRequestListingBroker
+              )}
+            />
+
+            <div
+              data-plasmic-name={"quotes"}
+              data-plasmic-override={overrides.quotes}
+              className={classNames(defaultcss.all, projectcss.all, sty.quotes)}
+            />
+
+            <div
+              data-plasmic-name={"documents"}
+              data-plasmic-override={overrides.documents}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.documents
+              )}
+            />
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                defaultcss.__wab_text,
+                sty.text__exUpw
+              )}
+            >
+              {"Start a loan and get more matched deals!"}
+            </div>
+
+            <div
+              data-plasmic-name={"buttonsButtons3"}
+              data-plasmic-override={overrides.buttonsButtons3}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.buttonsButtons3
+              )}
+            >
+              <div
+                data-plasmic-name={"text50"}
+                data-plasmic-override={overrides.text50}
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  sty.text50
+                )}
+              >
+                <div
+                  data-plasmic-name={"text51"}
+                  data-plasmic-override={overrides.text51}
+                  className={classNames(
+                    defaultcss.all,
+                    projectcss.all,
+                    defaultcss.__wab_text,
+                    sty.text51
+                  )}
+                >
+                  {"START A NEW TRANSACTION"}
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"inputText2"}
+              data-plasmic-override={overrides.inputText2}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.inputText2
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text___389C
+                )}
+              >
+                {"Address"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"inputText3"}
+              data-plasmic-override={overrides.inputText3}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.inputText3
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__zlqy6
+                )}
+              >
+                {"Transaction Type"}
+              </div>
+            </div>
+
+            <div
+              data-plasmic-name={"inputText4"}
+              data-plasmic-override={overrides.inputText4}
+              className={classNames(
+                defaultcss.all,
+                projectcss.all,
+                sty.inputText4
+              )}
+            >
+              <div
+                className={classNames(
+                  defaultcss.all,
+                  projectcss.all,
+                  defaultcss.__wab_text,
+                  sty.text__rj70Z
+                )}
+              >
+                {"Amount"}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: [
+    "root",
+    "homepageV1Desktop",
+    "rectangle326",
+    "rectangle6",
+    "asset101",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2",
+    "nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5",
+    "crossLines",
+    "crossLines2",
+    "crossLines3",
+    "moleculesMediaVideo1",
+    "background",
+    "crossLines4",
+    "playButton",
+    "atomsColorsAccent",
+    "rectangle5",
+    "moleculesMediaVideo12",
+    "background2",
+    "playButton2",
+    "atomsColorsAccent2",
+    "rectangle7",
+    "text2",
+    "text3",
+    "buttonsButtons",
+    "text4",
+    "text5",
+    "buttonsButtons2",
+    "text6",
+    "text7",
+    "component2",
+    "rectangle54",
+    "maskGroup",
+    "santorini2",
+    "santorini3",
+    "jcPenneyBuildingPlanoTx",
+    "_439000000",
+    "acquisitionFinancing",
+    "office",
+    "component3",
+    "rectangle55",
+    "maskGroup2",
+    "santorini4",
+    "santorini5",
+    "jcPenneyBuildingPlanoTx2",
+    "_4390000002",
+    "acquisitionFinancing2",
+    "office2",
+    "cardDeals",
+    "rectangle56",
+    "maskGroup3",
+    "santorini6",
+    "santorini7",
+    "_4390000003",
+    "office3",
+    "component4",
+    "rectangle57",
+    "maskGroup4",
+    "santorini8",
+    "santorini9",
+    "jcPenneyBuildingPlanoTx3",
+    "_4390000004",
+    "acquisitionFinancing3",
+    "office4",
+    "component8",
+    "rectangle58",
+    "maskGroup5",
+    "santorini10",
+    "santorini11",
+    "jcPenneyBuildingPlanoTx4",
+    "_4390000005",
+    "acquisitionFinancing4",
+    "office5",
+    "streamlineSvg",
+    "component6",
+    "rectangle59",
+    "maskGroup6",
+    "santorini12",
+    "santorini13",
+    "jcPenneyBuildingPlanoTx5",
+    "_4390000006",
+    "acquisitionFinancing5",
+    "office6",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7",
+    "footer",
+    "text8",
+    "inputText",
+    "buttons",
+    "suscribe",
+    "text9",
+    "text10",
+    "text11",
+    "text12",
+    "text13",
+    "text14",
+    "text15",
+    "text16",
+    "text17",
+    "text18",
+    "text19",
+    "text20",
+    "text21",
+    "text22",
+    "text23",
+    "text24",
+    "text25",
+    "text26",
+    "text27",
+    "text28",
+    "text29",
+    "text30",
+    "text31",
+    "text32",
+    "text33",
+    "text34",
+    "text35",
+    "text36",
+    "text37",
+    "text38",
+    "text39",
+    "text40",
+    "asset102",
+    "home2",
+    "navButon",
+    "text42",
+    "text43",
+    "text44",
+    "text45",
+    "rectangle339",
+    "rectangle336",
+    "text46",
+    "text47",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
+    "buttons2",
+    "secondary",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2",
+    "buttons3",
+    "secondary2",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3",
+    "buttons4",
+    "secondary3",
+    "text48",
+    "text49",
+    "financialRequestListingBroker",
+    "quotes",
+    "documents",
+    "buttonsButtons3",
+    "text50",
+    "text51",
+    "inputText2",
+    "inputText3",
+    "inputText4"
+  ],
+  homepageV1Desktop: [
+    "homepageV1Desktop",
+    "rectangle326",
+    "rectangle6",
+    "asset101",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2",
+    "nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5",
+    "crossLines",
+    "crossLines2",
+    "crossLines3",
+    "moleculesMediaVideo1",
+    "background",
+    "crossLines4",
+    "playButton",
+    "atomsColorsAccent",
+    "rectangle5",
+    "moleculesMediaVideo12",
+    "background2",
+    "playButton2",
+    "atomsColorsAccent2",
+    "rectangle7",
+    "text2",
+    "text3",
+    "buttonsButtons",
+    "text4",
+    "text5",
+    "buttonsButtons2",
+    "text6",
+    "text7",
+    "component2",
+    "rectangle54",
+    "maskGroup",
+    "santorini2",
+    "santorini3",
+    "jcPenneyBuildingPlanoTx",
+    "_439000000",
+    "acquisitionFinancing",
+    "office",
+    "component3",
+    "rectangle55",
+    "maskGroup2",
+    "santorini4",
+    "santorini5",
+    "jcPenneyBuildingPlanoTx2",
+    "_4390000002",
+    "acquisitionFinancing2",
+    "office2",
+    "cardDeals",
+    "rectangle56",
+    "maskGroup3",
+    "santorini6",
+    "santorini7",
+    "_4390000003",
+    "office3",
+    "component4",
+    "rectangle57",
+    "maskGroup4",
+    "santorini8",
+    "santorini9",
+    "jcPenneyBuildingPlanoTx3",
+    "_4390000004",
+    "acquisitionFinancing3",
+    "office4",
+    "component8",
+    "rectangle58",
+    "maskGroup5",
+    "santorini10",
+    "santorini11",
+    "jcPenneyBuildingPlanoTx4",
+    "_4390000005",
+    "acquisitionFinancing4",
+    "office5",
+    "streamlineSvg",
+    "component6",
+    "rectangle59",
+    "maskGroup6",
+    "santorini12",
+    "santorini13",
+    "jcPenneyBuildingPlanoTx5",
+    "_4390000006",
+    "acquisitionFinancing5",
+    "office6",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7",
+    "footer",
+    "text8",
+    "inputText",
+    "buttons",
+    "suscribe",
+    "text9",
+    "text10",
+    "text11",
+    "text12",
+    "text13",
+    "text14",
+    "text15",
+    "text16",
+    "text17",
+    "text18",
+    "text19",
+    "text20",
+    "text21",
+    "text22",
+    "text23",
+    "text24",
+    "text25",
+    "text26",
+    "text27",
+    "text28",
+    "text29",
+    "text30",
+    "text31",
+    "text32",
+    "text33",
+    "text34",
+    "text35",
+    "text36",
+    "text37",
+    "text38",
+    "text39",
+    "text40",
+    "asset102",
+    "home2",
+    "navButon",
+    "text42",
+    "text43",
+    "text44",
+    "text45",
+    "rectangle339",
+    "rectangle336",
+    "text46",
+    "text47",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
+    "buttons2",
+    "secondary",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2",
+    "buttons3",
+    "secondary2",
+    "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3",
+    "buttons4",
+    "secondary3",
+    "text48",
+    "text49",
+    "financialRequestListingBroker",
+    "quotes",
+    "documents",
+    "buttonsButtons3",
+    "text50",
+    "text51",
+    "inputText2",
+    "inputText3",
+    "inputText4"
+  ],
+  rectangle326: ["rectangle326"],
+  rectangle6: ["rectangle6"],
+  asset101: ["asset101"],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+    ],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2"
+    ],
+  nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
+    [
+      "nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+    ],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3"
+    ],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4"
+    ],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5"
+    ],
+  crossLines: ["crossLines"],
+  crossLines2: ["crossLines2"],
+  crossLines3: ["crossLines3"],
+  moleculesMediaVideo1: [
+    "moleculesMediaVideo1",
+    "background",
+    "crossLines4",
+    "playButton",
+    "atomsColorsAccent",
+    "rectangle5"
+  ],
+  background: ["background"],
+  crossLines4: ["crossLines4"],
+  playButton: ["playButton", "atomsColorsAccent", "rectangle5"],
+  atomsColorsAccent: ["atomsColorsAccent", "rectangle5"],
+  rectangle5: ["rectangle5"],
+  moleculesMediaVideo12: [
+    "moleculesMediaVideo12",
+    "background2",
+    "playButton2",
+    "atomsColorsAccent2",
+    "rectangle7"
+  ],
+  background2: ["background2"],
+  playButton2: ["playButton2", "atomsColorsAccent2", "rectangle7"],
+  atomsColorsAccent2: ["atomsColorsAccent2", "rectangle7"],
+  rectangle7: ["rectangle7"],
+  text2: ["text2"],
+  text3: ["text3"],
+  buttonsButtons: ["buttonsButtons", "text4", "text5"],
+  text4: ["text4", "text5"],
+  text5: ["text5"],
+  buttonsButtons2: ["buttonsButtons2", "text6", "text7"],
+  text6: ["text6", "text7"],
+  text7: ["text7"],
+  component2: [
+    "component2",
+    "rectangle54",
+    "maskGroup",
+    "santorini2",
+    "santorini3",
+    "jcPenneyBuildingPlanoTx",
+    "_439000000",
+    "acquisitionFinancing",
+    "office"
+  ],
+  rectangle54: ["rectangle54"],
+  maskGroup: ["maskGroup", "santorini2"],
+  santorini2: ["santorini2"],
+  santorini3: ["santorini3"],
+  jcPenneyBuildingPlanoTx: ["jcPenneyBuildingPlanoTx"],
+  _439000000: ["_439000000"],
+  acquisitionFinancing: ["acquisitionFinancing"],
+  office: ["office"],
+  component3: [
+    "component3",
+    "rectangle55",
+    "maskGroup2",
+    "santorini4",
+    "santorini5",
+    "jcPenneyBuildingPlanoTx2",
+    "_4390000002",
+    "acquisitionFinancing2",
+    "office2"
+  ],
+  rectangle55: ["rectangle55"],
+  maskGroup2: ["maskGroup2", "santorini4"],
+  santorini4: ["santorini4"],
+  santorini5: ["santorini5"],
+  jcPenneyBuildingPlanoTx2: ["jcPenneyBuildingPlanoTx2"],
+  _4390000002: ["_4390000002"],
+  acquisitionFinancing2: ["acquisitionFinancing2"],
+  office2: ["office2"],
+  cardDeals: [
+    "cardDeals",
+    "rectangle56",
+    "maskGroup3",
+    "santorini6",
+    "santorini7",
+    "_4390000003",
+    "office3"
+  ],
+  rectangle56: ["rectangle56"],
+  maskGroup3: ["maskGroup3", "santorini6"],
+  santorini6: ["santorini6"],
+  santorini7: ["santorini7"],
+  _4390000003: ["_4390000003"],
+  office3: ["office3"],
+  component4: [
+    "component4",
+    "rectangle57",
+    "maskGroup4",
+    "santorini8",
+    "santorini9",
+    "jcPenneyBuildingPlanoTx3",
+    "_4390000004",
+    "acquisitionFinancing3",
+    "office4"
+  ],
+  rectangle57: ["rectangle57"],
+  maskGroup4: ["maskGroup4", "santorini8"],
+  santorini8: ["santorini8"],
+  santorini9: ["santorini9"],
+  jcPenneyBuildingPlanoTx3: ["jcPenneyBuildingPlanoTx3"],
+  _4390000004: ["_4390000004"],
+  acquisitionFinancing3: ["acquisitionFinancing3"],
+  office4: ["office4"],
+  component8: [
+    "component8",
+    "rectangle58",
+    "maskGroup5",
+    "santorini10",
+    "santorini11",
+    "jcPenneyBuildingPlanoTx4",
+    "_4390000005",
+    "acquisitionFinancing4",
+    "office5"
+  ],
+  rectangle58: ["rectangle58"],
+  maskGroup5: ["maskGroup5", "santorini10"],
+  santorini10: ["santorini10"],
+  santorini11: ["santorini11"],
+  jcPenneyBuildingPlanoTx4: ["jcPenneyBuildingPlanoTx4"],
+  _4390000005: ["_4390000005"],
+  acquisitionFinancing4: ["acquisitionFinancing4"],
+  office5: ["office5"],
+  streamlineSvg: ["streamlineSvg"],
+  component6: [
+    "component6",
+    "rectangle59",
+    "maskGroup6",
+    "santorini12",
+    "santorini13",
+    "jcPenneyBuildingPlanoTx5",
+    "_4390000006",
+    "acquisitionFinancing5",
+    "office6"
+  ],
+  rectangle59: ["rectangle59"],
+  maskGroup6: ["maskGroup6", "santorini12"],
+  santorini12: ["santorini12"],
+  santorini13: ["santorini13"],
+  jcPenneyBuildingPlanoTx5: ["jcPenneyBuildingPlanoTx5"],
+  _4390000006: ["_4390000006"],
+  acquisitionFinancing5: ["acquisitionFinancing5"],
+  office6: ["office6"],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6"
+    ],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7"
+    ],
+  footer: [
+    "footer",
+    "text8",
+    "inputText",
+    "buttons",
+    "suscribe",
+    "text9",
+    "text10",
+    "text11",
+    "text12",
+    "text13",
+    "text14",
+    "text15",
+    "text16",
+    "text17",
+    "text18",
+    "text19",
+    "text20",
+    "text21",
+    "text22",
+    "text23",
+    "text24",
+    "text25",
+    "text26",
+    "text27",
+    "text28",
+    "text29",
+    "text30",
+    "text31",
+    "text32",
+    "text33",
+    "text34",
+    "text35",
+    "text36",
+    "text37",
+    "text38",
+    "text39",
+    "text40",
+    "asset102"
+  ],
+  text8: ["text8"],
+  inputText: ["inputText"],
+  buttons: ["buttons", "suscribe"],
+  suscribe: ["suscribe"],
+  text9: ["text9"],
+  text10: ["text10"],
+  text11: ["text11"],
+  text12: ["text12"],
+  text13: ["text13"],
+  text14: ["text14"],
+  text15: ["text15"],
+  text16: ["text16"],
+  text17: ["text17"],
+  text18: ["text18"],
+  text19: ["text19"],
+  text20: ["text20"],
+  text21: ["text21"],
+  text22: ["text22"],
+  text23: ["text23"],
+  text24: ["text24"],
+  text25: ["text25"],
+  text26: ["text26"],
+  text27: ["text27"],
+  text28: ["text28"],
+  text29: ["text29"],
+  text30: ["text30"],
+  text31: ["text31"],
+  text32: ["text32"],
+  text33: ["text33"],
+  text34: ["text34"],
+  text35: ["text35"],
+  text36: ["text36"],
+  text37: ["text37"],
+  text38: ["text38"],
+  text39: ["text39"],
+  text40: ["text40"],
+  asset102: ["asset102"],
+  home2: ["home2"],
+  navButon: ["navButon"],
+  text42: ["text42"],
+  text43: ["text43"],
+  text44: ["text44"],
+  text45: ["text45"],
+  rectangle339: ["rectangle339"],
+  rectangle336: ["rectangle336"],
+  text46: ["text46"],
+  text47: ["text47"],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+    ],
+  buttons2: ["buttons2", "secondary"],
+  secondary: ["secondary"],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2"
+    ],
+  buttons3: ["buttons3", "secondary2"],
+  secondary2: ["secondary2"],
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3:
+    [
+      "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3"
+    ],
+  buttons4: ["buttons4", "secondary3"],
+  secondary3: ["secondary3"],
+  text48: ["text48"],
+  text49: ["text49"],
+  financialRequestListingBroker: ["financialRequestListingBroker"],
+  quotes: ["quotes"],
+  documents: ["documents"],
+  buttonsButtons3: ["buttonsButtons3", "text50", "text51"],
+  text50: ["text50", "text51"],
+  text51: ["text51"],
+  inputText2: ["inputText2"],
+  inputText3: ["inputText3"],
+  inputText4: ["inputText4"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  homepageV1Desktop: "div";
+  rectangle326: "div";
+  rectangle6: "div";
+  asset101: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2: "div";
+  nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5: "div";
+  crossLines: "div";
+  crossLines2: "div";
+  crossLines3: "div";
+  moleculesMediaVideo1: "div";
+  background: "div";
+  crossLines4: "div";
+  playButton: "div";
+  atomsColorsAccent: "div";
+  rectangle5: "div";
+  moleculesMediaVideo12: "div";
+  background2: "div";
+  playButton2: "div";
+  atomsColorsAccent2: "div";
+  rectangle7: "div";
+  text2: "div";
+  text3: "div";
+  buttonsButtons: "div";
+  text4: "div";
+  text5: "div";
+  buttonsButtons2: "div";
+  text6: "div";
+  text7: "div";
+  component2: "div";
+  rectangle54: "div";
+  maskGroup: "div";
+  santorini2: "div";
+  santorini3: "div";
+  jcPenneyBuildingPlanoTx: "div";
+  _439000000: "div";
+  acquisitionFinancing: "div";
+  office: "div";
+  component3: "div";
+  rectangle55: "div";
+  maskGroup2: "div";
+  santorini4: "div";
+  santorini5: "div";
+  jcPenneyBuildingPlanoTx2: "div";
+  _4390000002: "div";
+  acquisitionFinancing2: "div";
+  office2: "div";
+  cardDeals: "div";
+  rectangle56: "div";
+  maskGroup3: "div";
+  santorini6: "div";
+  santorini7: "div";
+  _4390000003: "div";
+  office3: "div";
+  component4: "div";
+  rectangle57: "div";
+  maskGroup4: "div";
+  santorini8: "div";
+  santorini9: "div";
+  jcPenneyBuildingPlanoTx3: "div";
+  _4390000004: "div";
+  acquisitionFinancing3: "div";
+  office4: "div";
+  component8: "div";
+  rectangle58: "div";
+  maskGroup5: "div";
+  santorini10: "div";
+  santorini11: "div";
+  jcPenneyBuildingPlanoTx4: "div";
+  _4390000005: "div";
+  acquisitionFinancing4: "div";
+  office5: "div";
+  streamlineSvg: "div";
+  component6: "div";
+  rectangle59: "div";
+  maskGroup6: "div";
+  santorini12: "div";
+  santorini13: "div";
+  jcPenneyBuildingPlanoTx5: "div";
+  _4390000006: "div";
+  acquisitionFinancing5: "div";
+  office6: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7: "div";
+  footer: "div";
+  text8: "div";
+  inputText: "div";
+  buttons: "div";
+  suscribe: "div";
+  text9: "div";
+  text10: "div";
+  text11: "div";
+  text12: "div";
+  text13: "div";
+  text14: "div";
+  text15: "div";
+  text16: "div";
+  text17: "div";
+  text18: "div";
+  text19: "div";
+  text20: "div";
+  text21: "div";
+  text22: "div";
+  text23: "div";
+  text24: "div";
+  text25: "div";
+  text26: "div";
+  text27: "div";
+  text28: "div";
+  text29: "div";
+  text30: "div";
+  text31: "div";
+  text32: "div";
+  text33: "div";
+  text34: "div";
+  text35: "div";
+  text36: "div";
+  text37: "div";
+  text38: "div";
+  text39: "div";
+  text40: "div";
+  asset102: "div";
+  home2: "div";
+  navButon: typeof NavButon;
+  text42: "div";
+  text43: "div";
+  text44: "div";
+  text45: "div";
+  rectangle339: "div";
+  rectangle336: "div";
+  text46: "div";
+  text47: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum: "div";
+  buttons2: "div";
+  secondary: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2: "div";
+  buttons3: "div";
+  secondary2: "div";
+  loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3: "div";
+  buttons4: "div";
+  secondary3: "div";
+  text48: "div";
+  text49: "div";
+  financialRequestListingBroker: "div";
+  quotes: "div";
+  documents: "div";
+  buttonsButtons3: "div";
+  text50: "div";
+  text51: "div";
+  inputText2: "div";
+  inputText3: "div";
+  inputText4: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -167,6 +3800,196 @@ export const PlasmicNewPage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    homepageV1Desktop: makeNodeComponent("homepageV1Desktop"),
+    rectangle326: makeNodeComponent("rectangle326"),
+    rectangle6: makeNodeComponent("rectangle6"),
+    asset101: makeNodeComponent("asset101"),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+      ),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2"
+      ),
+    nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
+      makeNodeComponent(
+        "nuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+      ),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3"
+      ),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum4"
+      ),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum5"
+      ),
+    crossLines: makeNodeComponent("crossLines"),
+    crossLines2: makeNodeComponent("crossLines2"),
+    crossLines3: makeNodeComponent("crossLines3"),
+    moleculesMediaVideo1: makeNodeComponent("moleculesMediaVideo1"),
+    background: makeNodeComponent("background"),
+    crossLines4: makeNodeComponent("crossLines4"),
+    playButton: makeNodeComponent("playButton"),
+    atomsColorsAccent: makeNodeComponent("atomsColorsAccent"),
+    rectangle5: makeNodeComponent("rectangle5"),
+    moleculesMediaVideo12: makeNodeComponent("moleculesMediaVideo12"),
+    background2: makeNodeComponent("background2"),
+    playButton2: makeNodeComponent("playButton2"),
+    atomsColorsAccent2: makeNodeComponent("atomsColorsAccent2"),
+    rectangle7: makeNodeComponent("rectangle7"),
+    text2: makeNodeComponent("text2"),
+    text3: makeNodeComponent("text3"),
+    buttonsButtons: makeNodeComponent("buttonsButtons"),
+    text4: makeNodeComponent("text4"),
+    text5: makeNodeComponent("text5"),
+    buttonsButtons2: makeNodeComponent("buttonsButtons2"),
+    text6: makeNodeComponent("text6"),
+    text7: makeNodeComponent("text7"),
+    component2: makeNodeComponent("component2"),
+    rectangle54: makeNodeComponent("rectangle54"),
+    maskGroup: makeNodeComponent("maskGroup"),
+    santorini2: makeNodeComponent("santorini2"),
+    santorini3: makeNodeComponent("santorini3"),
+    jcPenneyBuildingPlanoTx: makeNodeComponent("jcPenneyBuildingPlanoTx"),
+    _439000000: makeNodeComponent("_439000000"),
+    acquisitionFinancing: makeNodeComponent("acquisitionFinancing"),
+    office: makeNodeComponent("office"),
+    component3: makeNodeComponent("component3"),
+    rectangle55: makeNodeComponent("rectangle55"),
+    maskGroup2: makeNodeComponent("maskGroup2"),
+    santorini4: makeNodeComponent("santorini4"),
+    santorini5: makeNodeComponent("santorini5"),
+    jcPenneyBuildingPlanoTx2: makeNodeComponent("jcPenneyBuildingPlanoTx2"),
+    _4390000002: makeNodeComponent("_4390000002"),
+    acquisitionFinancing2: makeNodeComponent("acquisitionFinancing2"),
+    office2: makeNodeComponent("office2"),
+    cardDeals: makeNodeComponent("cardDeals"),
+    rectangle56: makeNodeComponent("rectangle56"),
+    maskGroup3: makeNodeComponent("maskGroup3"),
+    santorini6: makeNodeComponent("santorini6"),
+    santorini7: makeNodeComponent("santorini7"),
+    _4390000003: makeNodeComponent("_4390000003"),
+    office3: makeNodeComponent("office3"),
+    component4: makeNodeComponent("component4"),
+    rectangle57: makeNodeComponent("rectangle57"),
+    maskGroup4: makeNodeComponent("maskGroup4"),
+    santorini8: makeNodeComponent("santorini8"),
+    santorini9: makeNodeComponent("santorini9"),
+    jcPenneyBuildingPlanoTx3: makeNodeComponent("jcPenneyBuildingPlanoTx3"),
+    _4390000004: makeNodeComponent("_4390000004"),
+    acquisitionFinancing3: makeNodeComponent("acquisitionFinancing3"),
+    office4: makeNodeComponent("office4"),
+    component8: makeNodeComponent("component8"),
+    rectangle58: makeNodeComponent("rectangle58"),
+    maskGroup5: makeNodeComponent("maskGroup5"),
+    santorini10: makeNodeComponent("santorini10"),
+    santorini11: makeNodeComponent("santorini11"),
+    jcPenneyBuildingPlanoTx4: makeNodeComponent("jcPenneyBuildingPlanoTx4"),
+    _4390000005: makeNodeComponent("_4390000005"),
+    acquisitionFinancing4: makeNodeComponent("acquisitionFinancing4"),
+    office5: makeNodeComponent("office5"),
+    streamlineSvg: makeNodeComponent("streamlineSvg"),
+    component6: makeNodeComponent("component6"),
+    rectangle59: makeNodeComponent("rectangle59"),
+    maskGroup6: makeNodeComponent("maskGroup6"),
+    santorini12: makeNodeComponent("santorini12"),
+    santorini13: makeNodeComponent("santorini13"),
+    jcPenneyBuildingPlanoTx5: makeNodeComponent("jcPenneyBuildingPlanoTx5"),
+    _4390000006: makeNodeComponent("_4390000006"),
+    acquisitionFinancing5: makeNodeComponent("acquisitionFinancing5"),
+    office6: makeNodeComponent("office6"),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum6"
+      ),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum7"
+      ),
+    footer: makeNodeComponent("footer"),
+    text8: makeNodeComponent("text8"),
+    inputText: makeNodeComponent("inputText"),
+    buttons: makeNodeComponent("buttons"),
+    suscribe: makeNodeComponent("suscribe"),
+    text9: makeNodeComponent("text9"),
+    text10: makeNodeComponent("text10"),
+    text11: makeNodeComponent("text11"),
+    text12: makeNodeComponent("text12"),
+    text13: makeNodeComponent("text13"),
+    text14: makeNodeComponent("text14"),
+    text15: makeNodeComponent("text15"),
+    text16: makeNodeComponent("text16"),
+    text17: makeNodeComponent("text17"),
+    text18: makeNodeComponent("text18"),
+    text19: makeNodeComponent("text19"),
+    text20: makeNodeComponent("text20"),
+    text21: makeNodeComponent("text21"),
+    text22: makeNodeComponent("text22"),
+    text23: makeNodeComponent("text23"),
+    text24: makeNodeComponent("text24"),
+    text25: makeNodeComponent("text25"),
+    text26: makeNodeComponent("text26"),
+    text27: makeNodeComponent("text27"),
+    text28: makeNodeComponent("text28"),
+    text29: makeNodeComponent("text29"),
+    text30: makeNodeComponent("text30"),
+    text31: makeNodeComponent("text31"),
+    text32: makeNodeComponent("text32"),
+    text33: makeNodeComponent("text33"),
+    text34: makeNodeComponent("text34"),
+    text35: makeNodeComponent("text35"),
+    text36: makeNodeComponent("text36"),
+    text37: makeNodeComponent("text37"),
+    text38: makeNodeComponent("text38"),
+    text39: makeNodeComponent("text39"),
+    text40: makeNodeComponent("text40"),
+    asset102: makeNodeComponent("asset102"),
+    home2: makeNodeComponent("home2"),
+    navButon: makeNodeComponent("navButon"),
+    text42: makeNodeComponent("text42"),
+    text43: makeNodeComponent("text43"),
+    text44: makeNodeComponent("text44"),
+    text45: makeNodeComponent("text45"),
+    rectangle339: makeNodeComponent("rectangle339"),
+    rectangle336: makeNodeComponent("rectangle336"),
+    text46: makeNodeComponent("text46"),
+    text47: makeNodeComponent("text47"),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum"
+      ),
+    buttons2: makeNodeComponent("buttons2"),
+    secondary: makeNodeComponent("secondary"),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2"
+      ),
+    buttons3: makeNodeComponent("buttons3"),
+    secondary2: makeNodeComponent("secondary2"),
+    loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3:
+      makeNodeComponent(
+        "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum3"
+      ),
+    buttons4: makeNodeComponent("buttons4"),
+    secondary3: makeNodeComponent("secondary3"),
+    text48: makeNodeComponent("text48"),
+    text49: makeNodeComponent("text49"),
+    financialRequestListingBroker: makeNodeComponent(
+      "financialRequestListingBroker"
+    ),
+    quotes: makeNodeComponent("quotes"),
+    documents: makeNodeComponent("documents"),
+    buttonsButtons3: makeNodeComponent("buttonsButtons3"),
+    text50: makeNodeComponent("text50"),
+    text51: makeNodeComponent("text51"),
+    inputText2: makeNodeComponent("inputText2"),
+    inputText3: makeNodeComponent("inputText3"),
+    inputText4: makeNodeComponent("inputText4"),
 
     // Metadata about props expected for PlasmicNewPage
     internalVariantProps: PlasmicNewPage__VariantProps,

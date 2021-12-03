@@ -53,6 +53,19 @@
           "cssFilePath": "plasmic/blank_project/PlasmicNewPage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "SdkReR4VXx",
+          "name": "NavButon",
+          "type": "managed",
+          "projectId": "b2N1SxytDee9rZxNaRXhrA",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicNavButon.tsx",
+          "importSpec": {
+            "modulePath": "NavButon.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicNavButon.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -170,6 +183,31 @@
           "id": "P1dBiO3WvP-",
           "name": "FixedIncomeLogoIcon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__FixedIncomeLogo.tsx"
+        },
+        {
+          "id": "EXGyL4hUSP-",
+          "name": "Rectangle11Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Rectangle11.tsx"
+        },
+        {
+          "id": "qvwCQCYGt6O",
+          "name": "BorderIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Border.tsx"
+        },
+        {
+          "id": "3iubnGhuWdd",
+          "name": "Path3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Path3.tsx"
+        },
+        {
+          "id": "GPF_5qGY95L",
+          "name": "MaskIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Mask.tsx"
+        },
+        {
+          "id": "93GedajKrdR",
+          "name": "Border2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Border2.tsx"
         }
       ],
       "images": [
@@ -232,6 +270,71 @@
           "id": "SO0Fwqv870U",
           "name": "w&d-logo",
           "filePath": "../public/plasmic/blank_project/images/wdLogo.svg"
+        },
+        {
+          "id": "JAX2Hp9UH",
+          "name": "Cross lines",
+          "filePath": "../public/plasmic/blank_project/images/crossLines.jpeg"
+        },
+        {
+          "id": "XwX14-iwWW",
+          "name": "Cross lines 2",
+          "filePath": "../public/plasmic/blank_project/images/crossLines2.jpeg"
+        },
+        {
+          "id": "QdC6GH6JG9",
+          "name": "home 2",
+          "filePath": "../public/plasmic/blank_project/images/home2.png"
+        },
+        {
+          "id": "dhj53EvLpL",
+          "name": "Financial Request Listing  - Broker",
+          "filePath": "../public/plasmic/blank_project/images/financialRequestListingBroker.jpeg"
+        },
+        {
+          "id": "kIrQ6TYzZX",
+          "name": "Quotes",
+          "filePath": "../public/plasmic/blank_project/images/quotes.jpeg"
+        },
+        {
+          "id": "M1UqWIO3hZ",
+          "name": "Documents",
+          "filePath": "../public/plasmic/blank_project/images/documents.jpeg"
+        },
+        {
+          "id": "T5vogxsbv9",
+          "name": "Background",
+          "filePath": "../public/plasmic/blank_project/images/background.jpeg"
+        },
+        {
+          "id": "IZuC_HASDh",
+          "name": "Background 2",
+          "filePath": "../public/plasmic/blank_project/images/background2.jpeg"
+        },
+        {
+          "id": "oGvbF-tT78G",
+          "name": "undraw_secure_files_re_6vdh 1",
+          "filePath": "../public/plasmic/blank_project/images/undrawSecureFilesRe6Vdh1.svg"
+        },
+        {
+          "id": "6YgVRSvsuiH",
+          "name": "Cross lines 3",
+          "filePath": "../public/plasmic/blank_project/images/crossLines3.svg"
+        },
+        {
+          "id": "m7IMCZ7ZtKq",
+          "name": "undraw_Documents_re_isxv",
+          "filePath": "../public/plasmic/blank_project/images/undrawDocumentsReIsxv.svg"
+        },
+        {
+          "id": "j8cpgS9veyD",
+          "name": "undraw_Customer_survey_re_v9cj 1",
+          "filePath": "../public/plasmic/blank_project/images/undrawCustomerSurveyReV9Cj1.svg"
+        },
+        {
+          "id": "Z1EnvpRmaoL",
+          "name": "undraw_data_processing_yrrv",
+          "filePath": "../public/plasmic/blank_project/images/undrawDataProcessingYrrv.svg"
         }
       ],
       "indirect": false,
