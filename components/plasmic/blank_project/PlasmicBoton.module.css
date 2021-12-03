@@ -1,0 +1,9 @@
+.root {
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(144, 158, 137, 1);
+  width: 73px;
+  height: 25px;
+  display: block;
+  position: relative;
+  border-radius: 10px;
+}

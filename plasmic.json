@@ -66,6 +66,19 @@
           "cssFilePath": "plasmic/blank_project/PlasmicNavButon.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "ZsZytXO7wQ",
+          "name": "Boton",
+          "type": "managed",
+          "projectId": "b2N1SxytDee9rZxNaRXhrA",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicBoton.tsx",
+          "importSpec": {
+            "modulePath": "Boton.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicBoton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

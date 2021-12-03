@@ -33,6 +33,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Boton from "../../Boton"; // plasmic-import: ZsZytXO7wQ/component
 import NavButon from "../../NavButon"; // plasmic-import: SdkReR4VXx/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
@@ -80,6 +81,7 @@ export type PlasmicNewPage__OverridesType = {
   homepageV1Desktop?: p.Flex<"div">;
   rectangle326?: p.Flex<"div">;
   rectangle6?: p.Flex<"div">;
+  boton?: p.Flex<typeof Boton>;
   asset101?: p.Flex<"div">;
   loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum?: p.Flex<"div">;
   loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2?: p.Flex<"div">;
@@ -208,7 +210,6 @@ export type PlasmicNewPage__OverridesType = {
   text43?: p.Flex<"div">;
   text44?: p.Flex<"div">;
   text45?: p.Flex<"div">;
-  rectangle339?: p.Flex<"div">;
   rectangle336?: p.Flex<"div">;
   text46?: p.Flex<"div">;
   text47?: p.Flex<"div">;
@@ -299,7 +300,13 @@ function PlasmicNewPage__RenderFunc(props: {
                 projectcss.all,
                 sty.rectangle6
               )}
-            />
+            >
+              <Boton
+                data-plasmic-name={"boton"}
+                data-plasmic-override={overrides.boton}
+                className={classNames("__wab_instance", sty.boton)}
+              />
+            </div>
 
             <div
               data-plasmic-name={"asset101"}
@@ -2616,16 +2623,6 @@ function PlasmicNewPage__RenderFunc(props: {
             </div>
 
             <div
-              data-plasmic-name={"rectangle339"}
-              data-plasmic-override={overrides.rectangle339}
-              className={classNames(
-                defaultcss.all,
-                projectcss.all,
-                sty.rectangle339
-              )}
-            />
-
-            <div
               className={classNames(
                 defaultcss.all,
                 projectcss.all,
@@ -2969,6 +2966,7 @@ const PlasmicDescendants = {
     "homepageV1Desktop",
     "rectangle326",
     "rectangle6",
+    "boton",
     "asset101",
     "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
     "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2",
@@ -3097,7 +3095,6 @@ const PlasmicDescendants = {
     "text43",
     "text44",
     "text45",
-    "rectangle339",
     "rectangle336",
     "text46",
     "text47",
@@ -3126,6 +3123,7 @@ const PlasmicDescendants = {
     "homepageV1Desktop",
     "rectangle326",
     "rectangle6",
+    "boton",
     "asset101",
     "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum",
     "loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2",
@@ -3254,7 +3252,6 @@ const PlasmicDescendants = {
     "text43",
     "text44",
     "text45",
-    "rectangle339",
     "rectangle336",
     "text46",
     "text47",
@@ -3280,7 +3277,8 @@ const PlasmicDescendants = {
     "inputText4"
   ],
   rectangle326: ["rectangle326"],
-  rectangle6: ["rectangle6"],
+  rectangle6: ["rectangle6", "boton"],
+  boton: ["boton"],
   asset101: ["asset101"],
   loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
     [
@@ -3543,7 +3541,6 @@ const PlasmicDescendants = {
   text43: ["text43"],
   text44: ["text44"],
   text45: ["text45"],
-  rectangle339: ["rectangle339"],
   rectangle336: ["rectangle336"],
   text46: ["text46"],
   text47: ["text47"],
@@ -3585,6 +3582,7 @@ type NodeDefaultElementType = {
   homepageV1Desktop: "div";
   rectangle326: "div";
   rectangle6: "div";
+  boton: typeof Boton;
   asset101: "div";
   loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum: "div";
   loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum2: "div";
@@ -3713,7 +3711,6 @@ type NodeDefaultElementType = {
   text43: "div";
   text44: "div";
   text45: "div";
-  rectangle339: "div";
   rectangle336: "div";
   text46: "div";
   text47: "div";
@@ -3803,6 +3800,7 @@ export const PlasmicNewPage = Object.assign(
     homepageV1Desktop: makeNodeComponent("homepageV1Desktop"),
     rectangle326: makeNodeComponent("rectangle326"),
     rectangle6: makeNodeComponent("rectangle6"),
+    boton: makeNodeComponent("boton"),
     asset101: makeNodeComponent("asset101"),
     loremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementumLoremIpsumDolorSitAmetConsecteturAdipiscingElitCrasANuncInPurusFacilisisSuscipitSedVelLoremNuncIaculisNisiUtNisiElementumVelUltriciesOrciElementum:
       makeNodeComponent(
@@ -3955,7 +3953,6 @@ export const PlasmicNewPage = Object.assign(
     text43: makeNodeComponent("text43"),
     text44: makeNodeComponent("text44"),
     text45: makeNodeComponent("text45"),
-    rectangle339: makeNodeComponent("rectangle339"),
     rectangle336: makeNodeComponent("rectangle336"),
     text46: makeNodeComponent("text46"),
     text47: makeNodeComponent("text47"),
